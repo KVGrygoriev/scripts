@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Sync4 QNX",
+            "type": "shell",
+            "command": "clear;cd ${workspaceRoot}/../sdl_infrastructure;./build_SYNC4.sh --install -t qnx",
+            "problemMatcher": [
+                "$gcc"
+             ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
